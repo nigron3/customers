@@ -1,0 +1,6 @@
+management:
+  endpoint:
+    web:
+      expose: ["health", "metrics", "trace"]
+  server:
+    port: 8089
